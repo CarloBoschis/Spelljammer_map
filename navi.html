@@ -15,14 +15,12 @@
         <link rel="icon" type="image/x-icon" href="assets/icon.png">
     </head>
     <body>
-
+<!--BACKGROUND-->
         <div class="parallax">    
-            <!-- <img src="assets/galaxy.jpg" class="background-image">
-                <img src="assets/overlay1.png" class="overlay1">
-                <img src="assets/overlay2.jpg" class="overlay2"> -->
             </div>
                 <img src="assets/gradient.png" class="background-gradient">
     
+                <!--MENU-->
                 <!-- The overlay -->
     <div id="myNav" class="overlay">
     
@@ -37,11 +35,12 @@
             <a href="personaggi.html">equipaggio</a>
             <a href="#">Appunti</a>
           </div>
-      
       </div>        
             <div class="navbar">
                 <h1 class="title1" onclick="openNav()">menu</h1>
             </div>
+
+<!--SIDE MENU-->
             <div class="tab">
                 <button class="tablinks" onclick="openCity(event, 'bombarda')">bombarda</button>
                 <button class="tablinks" onclick="openCity(event, 'lamprey')" id="defaultOpen">lamprey</button>
@@ -49,15 +48,18 @@
                 <button class="tablinks" onclick="openCity(event, 'scorpione')">scorpione</button>
                 <button class="tablinks" onclick="openCity(event, 'tarantola')">tarantola</button>
                 <button class="tablinks" onclick="openCity(event, 'shrike')">shrike</button>
-                <button class="tablinks" onclick="openCity(event, 'galeone')">galeone</button>
+                <button class="tablinks" onclick="openCity(event, 'galeone')">Galeone</button>
                 <button class="tablinks" onclick="openCity(event, 'calamara')">calamara</button>
                 <button class="tablinks" onclick="openCity(event, 'falena Stellare')">falena stellare</button>
                 <button class="tablinks" onclick="openCity(event, 'pesce Rondine')">pesce rondine</button>
                 <div id="bombarda" class="tabcontent">
-                    <h3>bombarda</h3>
-                    <img src="assets/ships-images/02-008.bombard-splash.png" alt="Una bombarda giff">
-                    <p>le navi bombarda sono caratterisitche dei giff. Lente e pesanti, sono solitamente armate di una bombarda enorme, in grado di polverizzare intere navi con un singolo colpo. Sono solitamente dei galeoni modificati, anche se il peso aggiunto della bombarda rende impossibile la navigazione su acqua. Il cannone può sparare con precisione anche a oltre 2400 piedi di distanza, anche se richiede che la nave sia puntata nella direzione del bersaglio.</p>
-                    <img src="assets/ships-images/map-2.01-bombard.jpg" alt="un piano giff">
+                    <div class="title-bar"><h3>bombarda</h3></div>  
+                    <div class="ship-description">
+                      <p>Le navi bombarda sono caratterisitche dei giff. Lente e pesanti, sono solitamente armate di una bombarda enorme, in grado di polverizzare intere navi con un singolo colpo. Sono solitamente dei galeoni modificati, anche se il peso aggiunto della bombarda rende impossibile la navigazione su acqua. Il cannone può sparare con precisione anche a oltre 2400 piedi di distanza, anche se richiede che la nave sia puntata nella direzione del bersaglio.</p>
+                    </div>      
+                    <div class="ship-cover"><img src="assets/ships-images/02-008.bombard-splash.png" alt="Una bombarda giff"></div>
+                    
+                   <div class="ship-map"> <img src="assets/ships-images/map-2.01-bombard.jpg" alt="un piano giff"> </div>
                   </div>
                   
                   <div id="lamprey" class="tabcontent">
@@ -85,7 +87,7 @@
                     <p>Who we are and what we do.</p>
                   </div>
                   <div id="galeone" class="tabcontent">
-                    <h3>galeone</h3>
+                    <h3>Galeone</h3>
                     <p>Who we are and what we do.</p>
                   </div>
                   <div id="calamara" class="tabcontent">
