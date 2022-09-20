@@ -54,7 +54,7 @@ header {
 
 .container_solid .title_wrapper h1 {
   /* the text background */
-  background: url(planets_description/03-001.rock-of-bral-splash.jpg);
+  background: url(https://media.dndbeyond.com/compendium-images/sais/MEDeeJAOuTmQ254j/03-001.rock-of-bral-splash.jpg);
   background-size: 100vw auto;
   background-position: center;
   
@@ -70,7 +70,7 @@ header {
 
 .container_image {
   /* Grab a free image from unsplash */
-  background-image: url(planets_description/03-001.rock-of-bral-splash.jpg);
+  background-image: url(https://media.dndbeyond.com/compendium-images/sais/MEDeeJAOuTmQ254j/03-001.rock-of-bral-splash.jpg);
   background-size:100vw auto;
   background-position: center;
   background-attachment: fixed;
