@@ -3,6 +3,32 @@ body {
     background-color: black;
 }
 
+p {
+    font-family: Josefin Sans;
+    font-size: large;
+    color: rgb(216, 216, 216);
+}
+
+h5 {
+    font-family: Josefin Sans;
+    font-weight: 800;
+    padding-top: 2vh;
+    font-size: 25px;
+}
+
+dt {
+    font-family: Josefin Sans;
+    font-weight: 800;
+    padding-top: 1vh;
+    font-size: larger;
+}
+
+dd {
+  font-family: Josefin Sans;
+  font-size: large;
+  color: rgb(216, 216, 216);
+}
+
 /*Classes*/
 .parallax {
     position: absolute;
@@ -80,29 +106,47 @@ body {
     font-family: inherit;
   }
 
+  .profile-picture1 {
+    padding: 5vh 2vh;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    background-image: url(assets/Razit.png);
+    background-size: auto 100%;
+    border: 1px solid rgb(216, 216, 216);
+  }
+
+  .col-md {
+    border-left: 1px solid rgb(216, 216, 216);
+  }
+
+  .row {
+    padding-top: 3vh;
+  }
+
   /*IDS*/
 #Timoniere {
-    background-color: rgba(112, 62, 62, 0.60);
+    background-color:  rgba(28, 28, 49, 0.5);
     border: 1px solid rgb(216, 216, 216);
     border-radius: 10px;
 }
 #PrimoUfficiale {
-    background-color: rgba(74, 119, 74, 0.6);
+    background-color:  rgba(28, 28, 49, 0.5);
     border: 1px solid rgb(216, 216, 216);
     border-radius: 10px;
 }
 #Nostromo {
-    background-color: rgba(66, 66, 112, 0.6);
+    background-color: rgba(28, 28, 49, 0.5);
     border: 1px solid rgb(216, 216, 216);
     border-radius: 10px;
 }
 #Medico {
-    background-color: rgba(119, 101, 68, 0.6);
+    background-color: rgba(28, 28, 49, 0.5);
     border: 1px solid rgb(216, 216, 216);
     border-radius: 10px;
 }
 #Navigatore {
-  background-color: rgba(100, 61, 98, 0.6);
+  background-color:  rgba(28, 28, 49, 0.5);
   border: 1px solid rgb(216, 216, 216);
   border-radius: 10px;
 }

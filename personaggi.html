@@ -43,11 +43,11 @@
                 <h1 class="title1" onclick="openNav()">menu</h1>
             </div>
             <div class="selection-menu">
-                <button class="tablink" onclick="openPage('Timoniere', this, 'rgba(112, 62, 62, 0.60)')">Timoniere</button>
-                <button class="tablink" onclick="openPage('PrimoUfficiale', this, 'rgba(74, 119, 74, 0.6)')" id="defaultOpen">Primo Ufficiale</button>
-                <button class="tablink" onclick="openPage('Nostromo', this, 'rgba(66, 66, 112, 0.6)')">Nostromo</button>
-                <button class="tablink" onclick="openPage('Medico', this, 'rgba(119, 101, 68, 0.6)')">Medico</button>
-                <button class="tablink" onclick="openPage('Navigatore', this, 'rgba(100, 61, 98, 0.6);')">Navigatore</button>
+                <button class="tablink" onclick="openPage('Timoniere', this, 'rgba(66, 66, 112, 0.8)')">timoniere</button>
+                <button class="tablink" onclick="openPage('PrimoUfficiale', this, 'rgba(66, 66, 112, 0.8)')" id="defaultOpen">primo ufficiale</button>
+                <button class="tablink" onclick="openPage('Nostromo', this, 'rgba(66, 66, 112, 0.8)')">nostromo</button>
+                <button class="tablink" onclick="openPage('Medico', this, 'rgba(66, 66, 112, 0.8)')">Medico</button>
+                <button class="tablink" onclick="openPage('Navigatore', this, 'rgba(66, 66, 112, 0.8);')">navigatore</button>
                 <div id="Timoniere" class="tabcontent">
                   <p>Il Timoniere è il colui che siede sullo Spelljamming Helm e lo comanda per guidare la nave nello spazio. Senza di lui, la nave non può muoversi. Mentre è seduto sul trono e al comando della nave, il corpo del timoniere è considerato unconscious. Per usare lo Spelljamming Helm è richiesto di avere almeno uno spell slot, e scenderne consuma tutti gli spell slot rimanenti.Durante un combattimento, la nave condivide l'iniziativa del Timoniere, e il Timoniere controlla le azioni che la nave prende: queste azioni non contano verso quelle del Timoniere in sè.</p>
                   <h5>azioni aggiuntive</h5>
@@ -63,17 +63,36 @@
                   </div>
                   
                   <div id="PrimoUfficiale" class="tabcontent">
-                    <p>il primo ufficale è colui che si occupa di comandare e motivare la ciurma</p>
-                    <h5>azioni aggiuntive</h5>
-                    <p>quando il primo ufficiale è sulla sua nave, può prendere le seguenti azioni</p>
-                    <dl>
-                      <dt>motiva la ciurma</dt>
-                      <dd>come azione, il primo ufficiale può guadagnare un dado di motivazione (vedi la classe bardo per il funzionamento del dado d'ispirazione), il cui valore scala seguendo il suo livello secondo la tabella del bardo. il primo ufficiale può poi applicare questo risultato a un qualsiasi check o della nave o della ciurma. il primo ufficiale può avere un solo dado motivazione alla volta.</dd>
-                      <dt>avanti tutta!</dt>
-                      <dd>fino all'inizio del prossimo turno della nave, il primo ufficiale può aumentarne la velocità di 1d6 * 5 piedi.</dd>
-                      <dt>aggiustare il tiro</dt>
-                      <dd>il primo ufficale può dare vantaggio al prossimo attack roll di un'arma della nave entro 10 piedi da lui. questo effetto non è sommabile.</dd>
-                    </dl>
+                    <div class="row">
+                      <div class="col-"><div class="profile-picture1"></div></div>
+                      <div class="col-md">
+                        <dl style="padding-left: 4vh;">
+                          <dt>Nome:</dt>
+                          <dd>Razit</dd>
+                          <dt>Età:</dt>
+                          <dd>24 anni</dd>
+                          <dt>Razza:</dt>
+                          <dd>Tiefling</dd>
+                          <dt>Provenienza:</dt>
+                          <dd>Konstrakta, Opazio di Halteri</dd>
+                          <dt>Tratti particolari:</dt>
+                          <dd>Sempre sporco di fuliggine e olio per motori, pieno di tatuaggi su tutto il corpo, alcuni dei quali si muovono e cambiano. Occhi gialli con una pupilla allungata come quella di un felino che sembrano quasi brillare al buio.</dd>
+                        </dl>
+                      </div>
+                      <div class="col-md">
+                        <p><b>Il primo ufficiale</b> è colui che si occupa di comandare e motivare la ciurma</p>
+                        <h5>Azioni aggiuntive</h5>
+                        <p>Quando il primo ufficiale è sulla sua nave, può prendere le seguenti azioni:</p>
+                        <dl>
+                          <dt>Motiva la ciurma</dt>
+                          <dd>Come <b>azione</b>, il primo ufficiale può guadagnare un dado di motivazione (vedi la classe bardo per il funzionamento del dado d'ispirazione), il cui valore scala seguendo il suo livello secondo la tabella del bardo. Il primo ufficiale può poi applicare questo risultato <b>a un qualsiasi check o della nave o della ciurma</b>. Il primo ufficiale può avere <b>un solo</b> dado motivazione alla volta.</dd>
+                          <dt>Avanti tutta!</dt>
+                          <dd>Fino <b>all'inizio del prossimo turno della nave</b>, il primo ufficiale può aumentarne la velocità di <b>1d6*5</b> piedi.</dd>
+                          <dt>Aggiustare il tiro</dt>
+                          <dd>Il primo ufficale può <b>dare vantaggio</b> al prossimo attack roll di un'arma della nave entro <b>10 piedi</b> da lui. Questo effetto non è sommabile.</dd>
+                        </dl>
+                      </div>
+                    </div>
                   </div>
                   
                   <div id="Nostromo" class="tabcontent">
