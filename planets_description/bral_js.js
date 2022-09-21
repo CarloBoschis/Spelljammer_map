@@ -17,3 +17,7 @@ d3.html("topside_bral.svg").then(function (newDocument) {
     }
     initZoom()
 })
+
+function infoTab (id){
+    alert(id);
+}
