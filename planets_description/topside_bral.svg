@@ -4,8 +4,8 @@
 <g id="Places">
 <circle id="thegreatmarket" title = "Il Mercato Centrale" cx="8935" cy="8416" r="49.5" fill="black" fill-opacity="0.78" stroke="black"/>
 <circle id="jugglersguildhouse" title = "La Gilda dei Giocolieri" cx="9974" cy="9258" r="49.5" fill="black" fill-opacity="0.78" stroke="black"/>
-<circle id="festivalgrounds" cx="10988" cy="9062" r="49.5" fill="black" fill-opacity="0.78" stroke="black"/>
-<circle id="arenaoffrun" cx="11572" cy="11005" r="49.5" fill="black" fill-opacity="0.78" stroke="black"/>
+<circle id="festivalgrounds" title = "Il Piazzale Festivo" cx="10988" cy="9062" r="49.5" fill="black" fill-opacity="0.78" stroke="black"/>
+<circle id="arenaoffrun" title = "Il Mercato Centrale"  cx="11572" cy="11005" r="49.5" fill="black" fill-opacity="0.78" stroke="black"/>
 <circle id="theedge" cx="10108" cy="10765" r="49.5" fill="black" fill-opacity="0.78" stroke="black"/>
 <circle id="elmandersstarcharts" cx="9266" cy="10765" r="49.5" fill="black" fill-opacity="0.78" stroke="black"/>
 <circle id="valkanlegion" cx="8620" cy="10765" r="49.5" fill="black" fill-opacity="0.78" stroke="black"/>
