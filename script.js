@@ -55,7 +55,8 @@ d3.html("assets/Map.svg").then(function (newDocument) {
   }
   let zoom = d3.zoom()
     .on('zoom', handleZoom)
-    .scaleExtent([0.25, 2]);
+    .translateExtent([[-1000, -500], [3000, 1500]])
+    .scaleExtent([0.25, 10]);
 
   function handleZoom(e) {
     d3.select('svg g')

@@ -4,7 +4,6 @@ d3.html("topside_bral.svg").then(function (newDocument) {
 
     let zoom = d3.zoom()
         .on('zoom', handleZoom)
-        .translateExtent([[-50000, -50000], [50000, 50000]])
         .scaleExtent([0, 3]);
 
     function handleZoom(e) {
