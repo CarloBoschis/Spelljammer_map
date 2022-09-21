@@ -1,6 +1,6 @@
 <svg fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="Group 1">
-<rect id="Map-Topside 1" width="20868" height="14738" fill="url(#pattern0)"/>
+<rect id="Map-Topside 1"  fill="url(#pattern0)"/>
 <g id="Places">
 <circle id="thegreatmarket" cx="8935" cy="8416" r="49.5" fill="black" fill-opacity="0.78" stroke="black"/>
 <circle id="jugglersguildhouse" cx="9974" cy="9258" r="49.5" fill="black" fill-opacity="0.78" stroke="black"/>
