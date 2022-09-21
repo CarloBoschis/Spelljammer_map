@@ -117,7 +117,7 @@ section p {
   max-width: 100%;
 }
 
-.tabcontent {
+.tabcontentprimespace {
   position: absolute;
   left: 15%;
   top: 3VH;
@@ -132,7 +132,7 @@ section p {
   display: none;
 }
 
-.tabcontent::-webkit-scrollbar {
+.tabcontentprimespace::-webkit-scrollbar {
   display: none;
 }
 
