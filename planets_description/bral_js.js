@@ -19,5 +19,13 @@ d3.html("topside_bral.svg").then(function (newDocument) {
 })
 
 function infoTab (id){
-    alert(id);
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
 }
+
+
+
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
