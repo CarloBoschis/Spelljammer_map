@@ -4,7 +4,7 @@
 
 <rect id="Map-Topside 1" width="20868" height="14738" fill="url(#pattern0)"/>
 <g id="places" cursor = pointer>
-<circle id="bob" cx="8935" cy="8416" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(thegreatmarket);"> <title>Il Mercato Centrale</title></circle>
+<circle id="thegreatmarket" cx="8935" cy="8416" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Il Mercato Centrale</title></circle>
 <circle id="jugglersguildhouse" cx="9974" cy="9258" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>La Gilda dei Giocolieri</title></circle>
 <circle id="festivalgrounds" cx="10988" cy="9062" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Il Piazzale Festivo</title></circle>
 <circle id="arenaoffrun" title = "Il Mercato Centrale"  cx="11572" cy="11005" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>L'Arena di Frun</title></circle>

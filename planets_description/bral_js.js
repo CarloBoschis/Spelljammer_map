@@ -22,6 +22,3 @@ function infoTab (id){
     document.getElementById(id).style.display = "block";
 }
 
-function closeinfoTab (id){
-    document.getElementById(id).style.display = "none";
-}
