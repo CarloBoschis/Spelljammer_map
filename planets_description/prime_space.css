@@ -118,21 +118,14 @@ section p {
 }
 
 .tabcontentprimespace {
-  position: absolute;
-  left: 15%;
-  top: 3VH;
+  position: relative;
   color: white;
   overflow: auto;
-  height: 85vh;
-  width: 80%;
+  height: 100%;
+  width: 100%;
   background-color: rgba(66, 66, 112, 0.6);
-  border-radius: 20px;
+  border-radius: 3vh;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  display: none;
-}
-
-.tabcontentprimespace::-webkit-scrollbar {
-  display: none;
 }
 
