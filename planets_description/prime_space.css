@@ -110,7 +110,7 @@ section p {
   max-height: 100%;
   max-width: 100%;
 }
-g#Places > g {
+g#places > g {
   cursor: pointer; /* The hand cursor will show over group */
 }
 
