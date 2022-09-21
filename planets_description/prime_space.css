@@ -113,3 +113,8 @@ section p {
 g#Places > g {
   cursor: pointer; /* The hand cursor will show over group */
 }
+
+#Places g {
+  transition: 0.3s ease opacity;
+  cursor: pointer;
+}
