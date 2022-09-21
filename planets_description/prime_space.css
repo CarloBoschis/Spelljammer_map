@@ -4,6 +4,12 @@ header {
   height: 200vh;
 }
 
+body {
+  background-color: black;
+  font-family: Josefin Sans;
+  color: white;
+}
+
 .container {
   /* hide fixed overflow contents */
   clip: rect(0, auto, auto, 0);
