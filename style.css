@@ -13,7 +13,6 @@ body {
     overflow: visible;
     overflow-x: visible;
     scale: 1;
-    max-height: 100vh;
 }
 
 g#planets > g {
