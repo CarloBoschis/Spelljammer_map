@@ -107,6 +107,6 @@ section p {
   overflow: visible;
   overflow-x: visible;
   scale: 1;
-  max-height: 100vh;
-  max-width: 100vh;
+  max-height: 100%;
+  max-width: 100%;
 }
