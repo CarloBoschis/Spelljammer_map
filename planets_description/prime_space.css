@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
 
 header {
-  height: 200vh;
+  height: 240vh;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
   position: absolute;
 
   /* Make sure containers are full-width and height */
-  height: 100vh;
+  height: 120vh;
   left: 0;
   width: 100%;
   max-width: 100%;
@@ -82,7 +82,7 @@ body {
   background-attachment: fixed;
   
   /* position the second container below the first container */
-  top: 100vh;
+  top: 120vh;
 }
 
 .container_image .title_wrapper h1 {
