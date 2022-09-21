@@ -16,7 +16,5 @@ d3.html("topside_bral.svg").then(function (newDocument) {
         d3.select('svg')
             .call(zoom);
     }
-    initZoom();
-    d3.selectAll(".checkboxOne").on("change", update);
-    update()
+    initZoom()
 })
