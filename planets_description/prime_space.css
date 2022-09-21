@@ -18,7 +18,7 @@ header {
   height: 100vh;
   left: 0;
   width: 100%;
-  
+  max-width: 100%;
   
   /* safari hack */
   -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%);
@@ -48,7 +48,7 @@ header {
   font-size: 64px;
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Fraunces', serif;
+  font-family: Major Mono Display;
   font-weight: 900;
 }
 
@@ -90,7 +90,7 @@ section {
 }
 
 section h2 {
-  font-family: 'Fraunces', serif;
+  font-family: Major Mono Display;
 }
 
 section p {
