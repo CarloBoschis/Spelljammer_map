@@ -116,3 +116,23 @@ section p {
   max-height: 100%;
   max-width: 100%;
 }
+
+.tabcontent {
+  position: absolute;
+  left: 15%;
+  top: 3VH;
+  color: white;
+  overflow: auto;
+  height: 85vh;
+  width: 80%;
+  background-color: rgba(66, 66, 112, 0.6);
+  border-radius: 20px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  display: none;
+}
+
+.tabcontent::-webkit-scrollbar {
+  display: none;
+}
+

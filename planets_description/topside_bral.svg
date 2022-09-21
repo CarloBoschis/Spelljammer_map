@@ -4,54 +4,54 @@
 
 <rect id="Map-Topside 1" width="20868" height="14738" fill="url(#pattern0)"/>
 <g id="places" cursor = pointer>
-<circle id="thegreatmarket" cx="8935" cy="8416" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Il Mercato Centrale</title></circle>
-<circle id="jugglersguildhouse" cx="9974" cy="9258" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>La Gilda dei Giocolieri</title></circle>
-<circle id="festivalgrounds" cx="10988" cy="9062" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Il Piazzale Festivo</title></circle>
-<circle id="arenaoffrun" title = "Il Mercato Centrale"  cx="11572" cy="11005" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>L'Arena di Frun</title></circle>
-<circle id="theedge" cx="10108" cy="10765" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Il Bordo</title></circle>
-<circle id="elmandersstarcharts" cx="9266" cy="10765" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Mappe Stellari da Elmander</title></circle>
-<circle id="valkanlegion" cx="8620" cy="10765" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Quartier Generale della Legione di Valkan</title></circle>
-<circle id="thedrydocks" cx="5473" cy="10108" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Il Porto Asciutto</title></circle>
-<circle id="thehappybeholder" cx="4231" cy="7777" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Il Beholder Felice</title></circle>
-<circle id="thedocks" cx="1728" cy="7419" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Il Porto</title></circle>
-<circle id="mercaneagency" cx="3499" cy="6436" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>La Torre Mercaniana</title></circle>
-<circle id="therockrat" cx="3745" cy="5538" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>La Rattoroccia</title></circle>
-<circle id="dowharshall" cx="4716" cy="4517" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Il Ghetto Dohwar</title></circle>
-<circle id="lowpark" cx="4181" cy="4517" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Bassoparco</title></circle>
-<circle id="gifftown" cx="4372" cy="5201" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Gifcastello</title></circle>
-<circle id="xenotermniations" cx="6029" cy="8112" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Terminazione Xenomorfe Inc.</title></circle>
-<circle id="duergarstown" cx="7444" cy="3642" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Quartiere Duerghiano</title></circle>
-<circle id="thedonjon" cx="10751" cy="5381" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>La Segreta</title></circle>
-<circle id="tomboftheancientone" cx="10616" cy="3378" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>La tomba dell'Estraneo</title></circle>
-<circle id="graveyard" cx="10929" cy="3837" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Cimitero di Bral</title></circle>
-<circle id="thehouseoftheheremit" cx="12032" cy="3592" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>La Casa dell'Eremita</title></circle>
-<circle id="thebrokenship" cx="12448" cy="4941" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Il Relitto dell'Arca</title></circle>
-<circle id="royaltheatricalcompany" cx="12773" cy="6875" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>La Compagnia Teatrale Regale</title></circle>
-<circle id="themanowar" cx="13550" cy="6281" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>La Man o' War</title></circle>
-<circle id="starhaven" cx="17023" cy="4223" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Starhaven</title></circle>
-<circle id="libraryofspheres" cx="13501" cy="10955" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>La Libreria delle Sfere</title></circle>
-<circle id="thestarreduniversity" cx="10074" cy="8259" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>L'Università Stellare</title></circle>
-<circle id="gasparreclamations" cx="8620" cy="9308" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Ricerche e Recuperi, da Gaspar</title></circle>
-<circle id="thesindiathline" cx="8985" cy="10225" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>I Navigatori di Sindiath</title></circle>
-<circle id="districtguildhalloftrades" cx="10484" cy="6281" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Distretto delle Gilde di Mestieri</title></circle>
-<circle id="templeoffortune" cx="8275" cy="4991" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Tempio di Ollandra</title></circle>
-<circle id="homeofcaptaincrow" cx="12270" cy="8632" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>La Residenza del Capitano Corvo</title></circle>
-<circle id="customsandguildhallofcommerce" cx="3248" cy="7604" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Dogana e Sede della Gilda di Commercio e Scambio</title></circle>
-<circle id="magesguildhall" cx="7695" cy="4891" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Gilda Arcana</title></circle>
-<circle id="redmaskguildhouse" cx="9104" cy="9509" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>La Gang delle Maschere Rosse</title></circle>
-<circle id="guildhallofcorsars" cx="12990" cy="9495" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Gilda dei Corsari e Protettori</title></circle>
-<circle id="guildallofislandsecurity" cx="7652" cy="8062" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Gilda della Sicurezza Interna</title></circle>
-<circle id="guildhallofthecarpenters" cx="4331" cy="9258" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>La Gilda dei Carpentieri</title></circle>
-<circle id="guildhallofthefarmers" cx="6195" cy="4617" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>La Sindacato degli Agricoltori</title></circle>
-<circle id="ozamatasmanor" cx="14420" cy="9441" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Villa Ozamata</title></circle>
-<circle id="embassyfothenewhorizons" cx="6029" cy="6606" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Ambasciata per la Compagnia dei Nuovi Orizzonti</title></circle>
-<circle id="allianceofmindsafety" cx="5929" cy="5201" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Fraternità della Protezione  Sicurezza Mentale</title></circle>
-<circle id="lessermarket" cx="4081" cy="6436" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Mercato Inferiore</title></circle>
-<circle id="middlespark" cx="11284" cy="7169" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Parco della Metà</title></circle>
-<circle id="embassyofthefleet" cx="7829" cy="6196" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>Ambasciata della Marina Stellare</title></circle>
-<circle id="thehole" cx="7138" cy="6844" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>La Fossa</title></circle>
-<circle id="thehighdock" cx="15369" cy="11285" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>L'Altoporto</title></circle>
-<circle id="theroyaldock" cx="16973" cy="2190" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.id);"> <title>L'Attracco Regale</title></circle>
+<circle name="thegreatmarket" cx="8935" cy="8416" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Il Mercato Centrale</title></circle>
+<circle name="jugglersguildhouse" cx="9974" cy="9258" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>La Gilda dei Giocolieri</title></circle>
+<circle name="festivalgrounds" cx="10988" cy="9062" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Il Piazzale Festivo</title></circle>
+<circle name="arenaoffrun" title = "Il Mercato Centrale"  cx="11572" cy="11005" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>L'Arena di Frun</title></circle>
+<circle name="theedge" cx="10108" cy="10765" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Il Bordo</title></circle>
+<circle name="elmandersstarcharts" cx="9266" cy="10765" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Mappe Stellari da Elmander</title></circle>
+<circle name="valkanlegion" cx="8620" cy="10765" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Quartier Generale della Legione di Valkan</title></circle>
+<circle name="thedrydocks" cx="5473" cy="10108" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Il Porto Asciutto</title></circle>
+<circle name="thehappybeholder" cx="4231" cy="7777" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Il Beholder Felice</title></circle>
+<circle name="thedocks" cx="1728" cy="7419" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Il Porto</title></circle>
+<circle name="mercaneagency" cx="3499" cy="6436" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>La Torre Mercaniana</title></circle>
+<circle name="therockrat" cx="3745" cy="5538" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>La Rattoroccia</title></circle>
+<circle name="dowharshall" cx="4716" cy="4517" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Il Ghetto Dohwar</title></circle>
+<circle name="lowpark" cx="4181" cy="4517" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Bassoparco</title></circle>
+<circle name="gifftown" cx="4372" cy="5201" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Gifcastello</title></circle>
+<circle name="xenotermniations" cx="6029" cy="8112" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Terminazione Xenomorfe Inc.</title></circle>
+<circle name="duergarstown" cx="7444" cy="3642" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Quartiere Duerghiano</title></circle>
+<circle name="thedonjon" cx="10751" cy="5381" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>La Segreta</title></circle>
+<circle name="tomboftheancientone" cx="10616" cy="3378" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>La tomba dell'Estraneo</title></circle>
+<circle name="graveyard" cx="10929" cy="3837" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Cimitero di Bral</title></circle>
+<circle name="thehouseoftheheremit" cx="12032" cy="3592" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>La Casa dell'Eremita</title></circle>
+<circle name="thebrokenship" cx="12448" cy="4941" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Il Relitto dell'Arca</title></circle>
+<circle name="royaltheatricalcompany" cx="12773" cy="6875" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>La Compagnia Teatrale Regale</title></circle>
+<circle name="themanowar" cx="13550" cy="6281" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>La Man o' War</title></circle>
+<circle name="starhaven" cx="17023" cy="4223" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Starhaven</title></circle>
+<circle name="libraryofspheres" cx="13501" cy="10955" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>La Libreria delle Sfere</title></circle>
+<circle name="thestarreduniversity" cx="10074" cy="8259" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>L'Università Stellare</title></circle>
+<circle name="gasparreclamations" cx="8620" cy="9308" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Ricerche e Recuperi, da Gaspar</title></circle>
+<circle name="thesindiathline" cx="8985" cy="10225" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>I Navigatori di Sindiath</title></circle>
+<circle name="districtguildhalloftrades" cx="10484" cy="6281" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Distretto delle Gilde di Mestieri</title></circle>
+<circle name="templeoffortune" cx="8275" cy="4991" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Tempio di Ollandra</title></circle>
+<circle name="homeofcaptaincrow" cx="12270" cy="8632" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>La Resnameenza del Capitano Corvo</title></circle>
+<circle name="customsandguildhallofcommerce" cx="3248" cy="7604" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Dogana e Sede della Gilda di Commercio e Scambio</title></circle>
+<circle name="magesguildhall" cx="7695" cy="4891" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Gilda Arcana</title></circle>
+<circle name="redmaskguildhouse" cx="9104" cy="9509" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>La Gang delle Maschere Rosse</title></circle>
+<circle name="guildhallofcorsars" cx="12990" cy="9495" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Gilda dei Corsari e Protettori</title></circle>
+<circle name="guildallofislandsecurity" cx="7652" cy="8062" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Gilda della Sicurezza Interna</title></circle>
+<circle name="guildhallofthecarpenters" cx="4331" cy="9258" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>La Gilda dei Carpentieri</title></circle>
+<circle name="guildhallofthefarmers" cx="6195" cy="4617" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>La Sindacato degli Agricoltori</title></circle>
+<circle name="ozamatasmanor" cx="14420" cy="9441" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Villa Ozamata</title></circle>
+<circle name="embassyfothenewhorizons" cx="6029" cy="6606" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Ambasciata per la Compagnia dei Nuovi Orizzonti</title></circle>
+<circle name="allianceofmindsafety" cx="5929" cy="5201" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Fraternità della Protezione  Sicurezza Mentale</title></circle>
+<circle name="lessermarket" cx="4081" cy="6436" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Mercato Inferiore</title></circle>
+<circle name="mnamedlespark" cx="11284" cy="7169" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Parco della Metà</title></circle>
+<circle name="embassyofthefleet" cx="7829" cy="6196" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>Ambasciata della Marina Stellare</title></circle>
+<circle name="thehole" cx="7138" cy="6844" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>La Fossa</title></circle>
+<circle name="thehighdock" cx="15369" cy="11285" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>L'Altoporto</title></circle>
+<circle name="theroyaldock" cx="16973" cy="2190" r="49.5" fill="black" fill-opacity="0.78" stroke="black" onclick="infoTab(this.name);"> <title>L'Attracco Regale</title></circle>
 </g>
 </g>
 <defs>

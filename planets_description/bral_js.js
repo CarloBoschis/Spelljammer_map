@@ -4,8 +4,8 @@ d3.html("topside_bral.svg").then(function (newDocument) {
 
     let zoom = d3.zoom()
         .on('zoom', handleZoom)
-        .translateExtent([[0 , 0], [20868, 14738]])
-        .scaleExtent([0, 3]);
+        .translateExtent([[0, 0], [20868, 14738]])
+        .scaleExtent([1, 2]);
 
     function handleZoom(e) {
         d3.select('svg g')
@@ -19,7 +19,15 @@ d3.html("topside_bral.svg").then(function (newDocument) {
     initZoom()
 })
 
-function infoTab (id){
+function infoTab(id) {
+    // Declare all variables
+    var i, tabcontent;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    // Show the current tab, and add an "active" class to the link that opened the tab
     document.getElementById(id).style.display = "block";
 }
-
