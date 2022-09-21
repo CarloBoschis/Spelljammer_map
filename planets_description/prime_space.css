@@ -25,28 +25,28 @@ body {
   left: 0;
   width: 100%;
   max-width: 100%;
-  
+
   /* safari hack */
-  -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+  -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
 }
 
 .container_solid {
   background: black;
-  
+
   /* position this container at the top of its parent element */
   top: 0;
 }
 
 .title_wrapper {
   position: fixed;
-  display: block;  
+  display: block;
   margin: auto;
   width: 100%;
   /* center the text wrapper vertically */
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .title_wrapper h1 {
@@ -63,13 +63,13 @@ body {
   background: url(https://media.dndbeyond.com/compendium-images/sais/MEDeeJAOuTmQ254j/03-001.rock-of-bral-splash.jpg);
   background-size: 100% auto;
   background-position: center;
-  
+
   /* clip the text is possible */
   text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  
+
   /* fallback text color */
   color: white;
 }
@@ -80,7 +80,7 @@ body {
   background-size: 100% auto;
   background-position: center;
   background-attachment: fixed;
-  
+
   /* position the second container below the first container */
   top: 120vh;
 }
