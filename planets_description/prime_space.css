@@ -12,7 +12,7 @@ body {
 }
 
 .close-button {
-  position: fixed;
+  position: absolute;
   padding: 2vh 2vh;
   color: rgb(216, 216, 216, 0.6);
   cursor: pointer;
