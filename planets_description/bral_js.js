@@ -22,22 +22,6 @@ d3.html("topside_bral.svg").then(function (newDocument) {
 d3.html("UndersideBral.svg").then(function (newDocument) {
     const svg2 = newDocument.querySelector("svg");
     document.querySelector("#visualization-container2").appendChild(svg2);
-
-    let zoom2 = d3.zoom()
-        .on('zoom2', handleZoom2)
-        .translateExtent([[0, 0], [20868, 14738]])
-        .scaleExtent([1, 5]);
-
-    function handleZoom2(e) {
-        d3.select('svg2 g')
-            .attr('transform', e.transform);
-    }
-
-    function initZoom2() {
-        d3.select('svg2')
-            .call(zoom);
-    }
-    initZoom2()
 })
 
 function infoTab(id) {
