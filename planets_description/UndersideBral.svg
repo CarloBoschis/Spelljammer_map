@@ -2,8 +2,8 @@
 <script xlink:href="bral_js.js"></script>
 <g id="Group 2">
 <rect id="Map-Underside-player 1" width="9548" height="6687" fill="url(#pattern0)"/>
-<g id="Group 1">
-<circle cx="4290" cy="2948" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('barraks')">
+<g id="MonkeyGroup">
+<circle cx="4290" cy="2948" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('barraks')"/>
 <circle cx="5551" cy="3048" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('vanes')"/>
 <circle cx="5551" cy="4056" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('vanes')"/>
 <circle cx="7652" cy="2749" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('vanes')"/>
