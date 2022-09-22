@@ -23,21 +23,21 @@ d3.html("UndersideBral.svg").then(function (newDocument) {
     const svg2 = newDocument.querySelector("svg");
     document.querySelector("#visualization-container2").appendChild(svg2);
 
-    let zoom = d3.zoom()
-        .on('zoom', handleZoom)
+    let zoom2 = d3.zoom()
+        .on('zoom2', handleZoom2)
         .translateExtent([[0, 0], [20868, 14738]])
         .scaleExtent([1, 5]);
 
-    function handleZoom(e) {
-        d3.select('svg g')
+    function handleZoom2(e) {
+        d3.select('svg2 g')
             .attr('transform', e.transform);
     }
 
-    function initZoom() {
-        d3.select('svg')
+    function initZoom2() {
+        d3.select('svg2')
             .call(zoom);
     }
-    initZoom()
+    initZoom2()
 })
 
 function infoTab(id) {
