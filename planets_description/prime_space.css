@@ -136,4 +136,16 @@ section p {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+.tabcontentprimespace2 {
+  position: relative;
+  color: white;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  padding: 2vh;
+  background-color: rgba(66, 66, 112, 0.6);
+  border-radius: 3vh;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 

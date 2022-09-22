@@ -52,3 +52,15 @@ function infoTab(id) {
     // Show the current tab, and add an "active" class to the link that opened the tab
     document.getElementById(id).style.display = "block";
 }
+function infoTab2(id) {
+    // Declare all variables
+    var i, tabcontent;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontentprimespace2");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    // Show the current tab, and add an "active" class to the link that opened the tab
+    document.getElementById(id).style.display = "block";
+}
