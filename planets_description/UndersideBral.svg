@@ -3,21 +3,21 @@
 <g id="Group 2">
 <rect id="Map-Underside-player 1" width="9548" height="6687" fill="url(#pattern0)"/>
 <g id="Group 1">
-<circle cx="4290" cy="2948" r="40" fill="black" fill-opacity="0.78" onclick="infoTab('barraks')">
-<circle cx="5551" cy="3048" r="40" fill="black" fill-opacity="0.78" onclick="infoTab('vanes')"/>
-<circle cx="5551" cy="4056" r="40" fill="black" fill-opacity="0.78" onclick="infoTab('vanes')"/>
-<circle cx="7652" cy="2749" r="40" fill="black" fill-opacity="0.78" onclick="infoTab('vanes')"/>
-<circle cx="7622" cy="4633" r="40" fill="black" fill-opacity="0.78" onclick="infoTab('vanes')"/>
-<circle cx="6791" cy="3610" r="40" fill="black" fill-opacity="0.78" onclick="infoTab('fields')"/>
-<circle cx="6111" cy="2245" r="40" fill="black" fill-opacity="0.78" onclick="infoTab('fields')"/>
-<circle cx="3656" cy="2406" r="40" fill="black" fill-opacity="0.78" onclick="infoTab('fields')"/>
-<circle cx="3911" cy="4310" r="40" fill="black" fill-opacity="0.78" onclick="infoTab('fields')"/>
-<circle cx="4479" cy="3344" r="40" fill="black" fill-opacity="0.78" onclick="infoTab('citadel')"/>
-<circle cx="3245" cy="3344" r="40" fill="black" fill-opacity="0.78" onclick="infoTab('nbase')"/>
-<circle cx="2315" cy="3344" r="40" fill="black" fill-opacity="0.78" onclick="infoTab('port')"/>
-<circle cx="2315" cy="2205" r="40" fill="black" fill-opacity="0.78" onclick="infoTab('cavern')"/>
-<circle cx="7241" cy="2098" r="40" fill="black" fill-opacity="0.78" onclick="infoTab('cavern')"/>
-<circle cx="7306" cy="5076" r="40" fill="black" fill-opacity="0.78" onclick="infoTab('cavern')"/>
+<circle cx="4290" cy="2948" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('barraks')">
+<circle cx="5551" cy="3048" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('vanes')"/>
+<circle cx="5551" cy="4056" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('vanes')"/>
+<circle cx="7652" cy="2749" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('vanes')"/>
+<circle cx="7622" cy="4633" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('vanes')"/>
+<circle cx="6791" cy="3610" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('fields')"/>
+<circle cx="6111" cy="2245" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('fields')"/>
+<circle cx="3656" cy="2406" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('fields')"/>
+<circle cx="3911" cy="4310" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('fields')"/>
+<circle cx="4479" cy="3344" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('citadel')"/>
+<circle cx="3245" cy="3344" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('nbase')"/>
+<circle cx="2315" cy="3344" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('port')"/>
+<circle cx="2315" cy="2205" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('cavern')"/>
+<circle cx="7241" cy="2098" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('cavern')"/>
+<circle cx="7306" cy="5076" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('cavern')"/>
 </g>
 </g>
 <defs>
