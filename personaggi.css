@@ -116,6 +116,28 @@ dd {
     border: 1px solid rgb(216, 216, 216);
   }
 
+  .profile-picture2 {
+    padding: 5vh 2vh;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    background-image: url(assets/Moses.png);
+    background-size: auto 155%;
+    background-position-x: -55px;
+    border: 1px solid rgb(216, 216, 216);
+  }
+
+  .profile-picture3 {
+    padding: 5vh 2vh;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    background-image: url(assets/Raul.png);
+    background-size: auto 155%;
+    background-position-x: -20px;
+    border: 1px solid rgb(216, 216, 216);
+  }
+
   .col-md {
     border-left: 1px solid rgb(216, 216, 216);
   }
