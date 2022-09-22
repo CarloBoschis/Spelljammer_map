@@ -20,8 +20,8 @@ d3.html("topside_bral.svg").then(function (newDocument) {
 })
 
 d3.html("UndersideBral.svg").then(function (newDocument) {
-    const svg = newDocument.querySelector("svg");
-    document.querySelector("#visualization-container2").appendChild(svg);
+    const svg2 = newDocument.querySelector("svg");
+    document.querySelector("#visualization-container2").appendChild(svg2);
 
     let zoom = d3.zoom()
         .on('zoom', handleZoom)
