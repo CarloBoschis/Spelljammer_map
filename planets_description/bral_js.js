@@ -1,4 +1,17 @@
+Promise.all([
+    d3.xml("topside_bral.svg"),
+    d3.xml("underside_bral.svg")
+])
+.then(([topside_bral, underside_bral]) => {
+    d3.selectAll(".topsidemap").nodes().forEach(n => {
+        n.append(topside_bral.documentElement.cloneNode(true))
+    });
+    d3.selectAll(".undersidemap").nodes().forEach(n => {
+        n.append(underside_bral.documentElement.cloneNode(true))
+    });
+});
 
+/*
 d3.html("topside_bral.svg").then(function (newDocument) {
     const svg = newDocument.querySelector("svg");
     document.querySelector(".topsidemap").appendChild(svg);
@@ -24,6 +37,7 @@ d3.html("underside_bral.svg").then(function (newDocument) {
     const svg = newDocument.querySelector("svg");
     document.querySelector(".undersidemap").appendChild(svg);
 })
+*/
 
 function infoTab(id) {
     // Declare all variables
