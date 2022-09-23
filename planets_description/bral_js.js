@@ -1,6 +1,7 @@
 d3.html("topside_bral.svg").then(function (newDocument) {
     const svg = newDocument.querySelector("svg");
     document.querySelector("#topsidemap").appendChild(svg);
+
     let zoom = d3.zoom()
         .on('zoom', handleZoom)
         .translateExtent([[0, 0], [20868, 14738]])
