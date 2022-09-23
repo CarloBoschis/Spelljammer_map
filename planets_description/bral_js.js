@@ -18,10 +18,7 @@ d3.html("topside_bral.svg").then(function (newDocument) {
     initZoom()
 })
 
-d3.html("UndersideBral.svg").then(function (newDocument2) {
-    const svg2 = newDocument2.querySelector("svg");
-    document.querySelector("#visualization-container2").appendChild(svg2);
-})
+
 
 function infoTab(id) {
     // Declare all variables
