@@ -148,16 +148,7 @@ section h2 {
   border-radius: 20px;
 }
 
-.root2{
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 5px;
-  padding: 2vh 0vh;
-  border: 1px solid rgb(216, 216, 216);
-  border-radius: 20px;
-}
-
-#visualization-container {
+.visualization-container {
   overflow: visible;
   overflow-x: visible;
   scale: 1;
@@ -165,13 +156,6 @@ section h2 {
   max-width: 100%;
 }
 
-#visualization-container2 {
-  overflow: visible;
-  overflow-x: visible;
-  scale: 1;
-  max-height: 100%;
-  max-width: 100%;
-}
 
 
 .tabcontentprimespace {
