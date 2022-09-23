@@ -127,6 +127,8 @@ body {
 
 .place-description {
   font-family: inherit;
+  height: inherit;
+  overflow-y: scroll;
 }
 
 section {
@@ -161,7 +163,6 @@ section h2 {
 .tabcontentprimespace {
   position: relative;
   color: white;
-  overflow-y: scroll;
   height: 100%;
   width: 100%;
   padding: 2vh;
