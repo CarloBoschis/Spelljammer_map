@@ -30,6 +30,7 @@ body {
 
 .title-bar {
   font-family: Josefin Sans;
+  position: fixed;
 }
 
 .place-description {
@@ -176,7 +177,7 @@ section h2 {
 .tabcontentprimespace {
   position: relative;
   color: white;
-  overflow: auto;
+  overflow-y: scroll;
   height: 100%;
   width: 100%;
   padding: 2vh;
