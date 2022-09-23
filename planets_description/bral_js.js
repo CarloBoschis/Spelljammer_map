@@ -2,14 +2,30 @@ Promise.all([
     d3.xml("topside_bral.svg"),
     d3.xml("underside_bral.svg")
 ])
-.then(([topside_bral, underside_bral]) => {
-    d3.selectAll(".topsidemap").nodes().forEach(n => {
-        n.append(topside_bral.documentElement.cloneNode(true))
+    .then(([topside_bral, underside_bral]) => {
+        d3.selectAll(".topsidemap").nodes().forEach(n => {
+            n.append(topside_bral.documentElement.cloneNode(true))
+        });
+        d3.selectAll(".undersidemap").nodes().forEach(n => {
+            n.append(underside_bral.documentElement.cloneNode(true))
+        });
     });
-    d3.selectAll(".undersidemap").nodes().forEach(n => {
-        n.append(underside_bral.documentElement.cloneNode(true))
-    });
-});
+
+let zoom = d3.zoom()
+    .on('zoom', handleZoom)
+    .translateExtent([[0, 0], [20868, 14738]])
+    .scaleExtent([1, 5]);
+
+function handleZoom(e) {
+    d3.select('svg g')
+        .attr('transform', e.transform);
+}
+
+function initZoom() {
+    d3.select('svg')
+        .call(zoom);
+}
+initZoom()
 
 /*
 d3.html("topside_bral.svg").then(function (newDocument) {
