@@ -151,7 +151,15 @@ section h2 {
   border-radius: 20px;
 }
 
-.visualization-container {
+.topsidemap {
+  overflow: visible;
+  overflow-x: visible;
+  scale: 1;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.undersidemap {
   overflow: visible;
   overflow-x: visible;
   scale: 1;
