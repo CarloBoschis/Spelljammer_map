@@ -1,6 +1,6 @@
 d3.html("topside_bral.svg").then(function (newDocument) {
-    const svg = newDocument.querySelector("svg");
-    document.querySelector("#topside-map").appendChild(svg);
+    const svg_top = newDocument.querySelector("svg");
+    document.querySelector("#topside-map").appendChild(svg_top);
     let zoom = d3.zoom()
         .on('zoom', handleZoom)
         .translateExtent([[0, 0], [20868, 14738]])
@@ -16,6 +16,11 @@ d3.html("topside_bral.svg").then(function (newDocument) {
             .call(zoom);
     }
     initZoom()
+})
+
+d3.html("Underside.svg").then(function (newDocument) {
+    const svg_und = newDocument.querySelector("svg");
+    document.querySelector("#topside-map").appendChild(svg_und);
 })
 
 
