@@ -44,7 +44,7 @@ d3.html("underside_bral.svg").then(function (newDocument) {
         .scaleExtent([1, 5]);
 
     function handleZoom(e) {
-        d3.select('svg g')
+        d3.select('svg2 g')
             .attr('transform', e.transform);
     }
 
