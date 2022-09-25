@@ -1,3 +1,4 @@
+/*
 Promise.all([
     d3.xml("topside_bral.svg"),
     d3.xml("underside_bral.svg")
@@ -10,12 +11,12 @@ Promise.all([
             n.append(underside_bral.documentElement.cloneNode(true))
         });
     });
+*/
 
 
-/*
 d3.html("topside_bral.svg").then(function (newDocument) {
     const svg = newDocument.querySelector("svg");
-    document.querySelector(".topsidemap").appendChild(svg);
+    document.querySelector("#topsidemap").appendChild(svg);
 
     let zoom = d3.zoom()
         .on('zoom', handleZoom)
@@ -36,9 +37,8 @@ d3.html("topside_bral.svg").then(function (newDocument) {
 
 d3.html("underside_bral.svg").then(function (newDocument) {
     const svg = newDocument.querySelector("svg");
-    document.querySelector(".undersidemap").appendChild(svg);
+    document.querySelector("#undersidemap").appendChild(svg);
 })
-*/
 
 function infoTab(id) {
     // Declare all variables
