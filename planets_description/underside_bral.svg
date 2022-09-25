@@ -2,7 +2,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink" style="border-radius: 3vh">
     <g id="UndersideGroup">
         <rect id="UndersideMap" width="9548" height="6687" fill="url(#whatacunt)" />
-        <g id="UndersidePlaces">
+        <g id="UndersidePlaces" cursor='pointer'>
             <circle cx="4290" cy="2948" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('barraks')" />
             <circle cx="5551" cy="3048" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('vanes')" />
             <circle cx="5551" cy="4056" r="40" fill="black" fill-opacity="0.78" onclick="infoTab2('vanes')" />
