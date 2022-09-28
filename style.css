@@ -149,7 +149,7 @@ g#planets > g {
   padding: 1vh 0vh;
 }
 
-#primespace {
+.opazio-description {
   position: fixed;
   display: none;
   width: 100%;
