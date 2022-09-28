@@ -110,11 +110,11 @@ dd {
 
   .profile-picture1 {
     padding: 5vh 2vh;
-    height: 70vh;
-    width: 55vh;
+    height: 500px;
+    width: 400px;
     border-radius: 10px;
-    background-image: url(assets/razit2.png);
-    background-size: auto 115%;
+    background-image: url(assets/Razit.png);
+    background-size: auto 100%;
     border: 1px solid rgb(216, 216, 216);
   }
 
