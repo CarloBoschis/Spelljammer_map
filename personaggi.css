@@ -140,6 +140,17 @@ dd {
     border: 1px solid rgb(216, 216, 216);
   }
 
+  .profile-picture4 {
+    padding: 10vh 2vh;
+    height: 70vh;
+    width: 55vh;
+    border-radius: 10px;
+    background-image: url(assets/hardin.png);
+    background-size: auto 120%;
+    background-position-x: -3vh;
+    border: 1px solid rgb(216, 216, 216);
+  }
+
 
   /*IDS*/
 #Timoniere {
