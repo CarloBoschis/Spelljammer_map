@@ -156,9 +156,9 @@ dd {
     height: 70vh;
     width: 55vh;
     border-radius: 10px;
-    background-image: url(assets/hardin.png);
-    background-size: auto 120%;
-    background-position-x: -3vh;
+    background-image: url(assets/wukong.png);
+    background-size: auto 150%;
+    background-position-x: -40vh;
     border: 1px solid rgb(216, 216, 216);
   }
 
